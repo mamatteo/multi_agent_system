@@ -1,0 +1,3 @@
+Riscrivi la lettera precedente considerando questo feedback:
+FEEDBACK REVISORE: {review_feedback}
+LETTERA PRECEDENTE: {letter_draft}

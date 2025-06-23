@@ -1,0 +1,6 @@
+Revisiona criticamente questa lettera:
+{letter_draft}
+Fornisci:
+1. Valutazione complessiva (APPROVATA/DA RIVEDERE)
+2. Problemi riscontrati
+3. Suggerimenti di miglioramento.

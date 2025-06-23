@@ -1,0 +1,7 @@
+Prima di procedere con il tuo compito, ragiona sui seguenti punti:
+
+THOUGHT: Qual è l'obiettivo specifico di questa fase?
+OBSERVATION: Cosa osservi nello stato attuale (dati, feedback precedenti, etc.)?
+ACTION: Qual è l'azione migliore da intraprendere?
+
+Fornisci il tuo ragionamento prima di procedere con l'azione.
