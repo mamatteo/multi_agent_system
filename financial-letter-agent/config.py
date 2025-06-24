@@ -1,11 +1,18 @@
 # config.py
 from openai import AzureOpenAI
+import os
+from dotenv import load_dotenv
 
-AZURE_ENDPOINT = "https://matte-mb4x24lj-eastus2.cognitiveservices.azure.com/"
-AZURE_DEPLOYMENT = "gpt-4o-2"
-AZURE_API_KEY = "DF3ExC1zxMYZiu1NFefdjQPfJzum2bH3Kk7OE5aOj6yi7leDOSP1JQQJ99BEACHYHv6XJ3w3AAAAACOGvXwd"
-AZURE_API_VERSION = "2024-12-01-preview"
+# Carica le variabili dal file .env
+load_dotenv()
 
+# Leggi le variabili d'ambiente
+AZURE_ENDPOINT = os.getenv('AZURE_ENDPOINT')
+AZURE_DEPLOYMENT = os.getenv('AZURE_DEPLOYMENT')
+AZURE_API_KEY = os.getenv('AZURE_API_KEY')
+AZURE_API_VERSION = os.getenv('AZURE_API_VERSION')
+
+# Crea il client Azure OpenAI
 azure_client = AzureOpenAI(
     api_version=AZURE_API_VERSION,
     azure_endpoint=AZURE_ENDPOINT,
